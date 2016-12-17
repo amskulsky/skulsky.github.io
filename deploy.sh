@@ -16,7 +16,7 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push skulsky:amsDhl987lhd@github.com/skulsky/skulsky.github.io.git origin master
-git subtree push --prefix=public skulsky:amsDhl987lhd@github.com/skulsky/skulsky.github.io.git gh-pages
+git push https://skulsky:amsDhl987lhd@github.com/skulsky/skulsky.github.io.git origin master
+git subtree push --prefix=public https://skulsky:amsDhl987lhd@github.com/skulsky/skulsky.github.io.git gh-pages
 
 read -p "Press any key to continue... " -n1 -s
